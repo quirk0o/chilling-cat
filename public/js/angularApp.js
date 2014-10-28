@@ -7,12 +7,12 @@ angular.module('flapperNews', [ 'ui.router' ])
         $stateProvider
             .state('home', {
               url: '/',
-              templateUrl: 'public/modules/core/views/home.html',
+              templateUrl: 'views/home.html',
               controller: 'MainCtrl'
             })
             .state('posts', {
               url: '/posts/:id',
-              templateUrl: 'public/modules/posts/views/post.html',
+              templateUrl: 'views/post.html',
               controller: 'PostsCtrl'
             });
 
